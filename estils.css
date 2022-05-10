@@ -1,0 +1,31 @@
+body{
+  background: lightcoral;
+}
+
+#cabecera{
+  width: auto;
+  height: 100px;
+  background-color: pink;
+}
+
+#contenedor{
+  width: 1000px;
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+p{
+ line-height: 160px;
+ margin-left: 100px;
+
+}
+
+.bolas{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+  margin:10px;
+  float:left;
+}
