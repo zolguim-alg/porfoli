@@ -1,0 +1,81 @@
+body{
+  background:#DAF7A6;
+}
+#contenedor{
+  width: 600px;
+  margin: 0 auto;
+}
+
+#pelo{
+  width:556px;
+  height: 556px;
+  background-color: #683F00;
+  clip-path: polygon(10% 92%, 6% 71%, 8% 52%, 9% 42%, 14% 28%, 25% 15%, 41% 12%, 52% 17%, 66% 14%, 80% 14%, 90% 29%, 98% 53%, 93% 91%, 83% 100%, 71% 97%, 69% 81%, 82% 56%, 70% 46%, 56% 33%, 43% 40%, 35% 47%, 33% 55%, 30% 71%, 33% 89%, 28% 100%);
+  position: relative;
+  top:25px;
+}
+
+#cara{
+margin-left:100px;
+position:relative;
+top:-350px;
+width:341px;
+height:341px;
+left: 20px;
+background:#FFD982;
+border-radius: 50% 50% 47% 53% / 29% 28% 72% 71% ;
+}
+
+.ojos{
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  clip-path: ellipse(50% 30% at 50% 51%);
+  float: left;
+  margin: 30px;
+}
+
+#ojoderecho{
+  left:10;
+  top:80;
+}
+
+#ojoizquierdo{
+ left:10;
+ top:30;
+}
+
+#pupila{
+  border-radius: 50%;
+  background: green;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left:20px;
+  top: 20px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+#nariz{
+  background: #CE9339;
+  width: 70px;
+  height: 80px;
+  position: relative;
+  left:130px;
+  top:120px;
+  clip-path: ellipse(10% 50% at 50% 50%);
+}
+
+#boca{
+  width: 200px;
+  height: 80px;
+  background: transparent;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  border-radius: 50%;
+  z-index: 10px;
+  border-bottom: 5px solid #000;
+}
