@@ -1,0 +1,96 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  z-index: 5 ;
+}
+
+body{
+background: black;
+}
+
+#luna{
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: grey;
+  left:250px;
+  top:180px;
+  position: relative;
+  animation: luna 3s infinite linear;
+}
+@keyframes luna {
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(500px);
+  }
+}
+
+#cuadrado{
+height: 800px;
+width: 800px;
+background: rgb(13,0,110);
+background: linear-gradient(0deg, rgba(13,0,110,1) 0%, rgba(179,9,250,1) 100%);
+animation: cuadrado 4s infinite;
+}
+
+@keyframes cuadrado {
+  0%{background: rgb(48,35,144);
+background: linear-gradient(0deg, rgba(48,35,144,1) 0%, rgba(179,9,250,1) 100%);}
+    100%{background: rgb(13,0,110);
+background: linear-gradient(0deg, rgba(13,0,110,1) 84%, rgba(179,9,250,1) 100%);}
+}
+#suelo{
+  background: #937204;
+  height:150px ;
+  width:800px ;
+  position: fixed;
+  top:700px;
+}
+
+#casita{
+ background-color: black;
+ height:250px ;
+ width:300px;
+ position:relative;
+ top:420px;
+}
+
+.ventana{
+  background-color: yellow;
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+
+.ventana.uno{
+  left:-50px;
+  top:20px;
+}
+
+.ventana.dos{
+  left:50;
+  top:12;
+}
+
+#puerta{
+  background-color: white;
+  height: 90px;
+  width: 100px;
+  top:40px;
+  position: relative;
+}
+
+.petalo{
+  position: relative;
+  height:20px;
+  width:20px;
+  background-color: #CE2FE5;
+  border-radius:26% 74% 0% 100% / 21% 100% 0% 79% ;
+}
+
+@keyframes flor{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
